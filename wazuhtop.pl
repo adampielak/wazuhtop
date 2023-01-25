@@ -3,6 +3,8 @@
 use Socket;
 use POSIX 'setsid';
 
+no warnings 'uninitialized';
+
 # ---------------------------------------------------------------------------
 # Author: Meir Michanie (meirm@riunx.com)
 # File: ossectop.pl
